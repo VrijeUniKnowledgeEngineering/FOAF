@@ -3,23 +3,112 @@
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
       xmlns:admin="http://webns.net/mvcb/">
-<foaf:PersonalProfileDocument rdf:about="">
-  <foaf:maker rdf:resource="#me"/>
-  <foaf:primaryTopic rdf:resource="#me"/>
-  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
-  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
-</foaf:PersonalProfileDocument>
-<foaf:Person rdf:ID="me">
-<foaf:name>Shuai Wang</foaf:name>
+<!-- me -->
+<foaf:Person rdf:ID="finn">
 <foaf:title>Mr</foaf:title>
 <foaf:givenname>Shuai</foaf:givenname>
 <foaf:family_name>Wang</foaf:family_name>
 <foaf:nick>Finn Potason</foaf:nick>
-<foaf:mbox rdf:resource="mailto:finn.potason@gmail.com"/>
+<foaf:mbox rdf:resource="s2.wang@vu.nl"/>
 <foaf:homepage rdf:resource="https://potason.github.io/"/>
 <foaf:depiction rdf:resource="https://potason.github.io/images/cthulu.jpeg"/>
-<foaf:phone rdf:resource="tel:652691901"/>
 <foaf:workplaceHomepage rdf:resource="http://krr.cs.vu.nl/"/>
-<foaf:workInfoHomepage rdf:resource="https://research.vu.nl/en/persons/shuai-wang"/>
-<foaf:schoolHomepage rdf:resource="https://www.vu.nl/en/"/></foaf:Person>
+<foaf:interest>machine learning</foaf:interest>
+<foaf:interest>knowledge graph</foaf:interest>
+<foaf:interest>logic</foaf:interest>
+<foaf:status>phd</foaf:status>
+<foaf:currentProject>Meastrograph</foaf:currentProject>
+</foaf:Person>
+<!-- Albert -->
+<foaf:Person rdf:ID="albert">
+<foaf:title>Dr.</foaf:title>
+<foaf:givenname>Albert</foaf:givenname>
+<foaf:family_name>Meroño Peñuela</foaf:family_name>
+<foaf:mbox rdf:resource="albert.merono@vu.nl"/>
+<foaf:homepage rdf:resource="https://www.albertmeronyo.org/"/>
+<foaf:depiction rdf:resource="https://www.albertmeronyo.org/wp-content/uploads/2017/01/L_10a-750x804.jpg"/>
+<foaf:interest>knowledge access</foaf:interest>
+<foaf:interest>semantic music</foaf:interest>
+<foaf:interest>linked data</foaf:interest>
+<foaf:status>postdoc</foaf:status>
+<foaf:currentProject>CLARIAH</foaf:currentProject>
+<foaf:currentProject>MIDI Linked Data</foaf:currentProject>
+<foaf:currentProject>Linked Data APIs</foaf:currentProject>
+</foaf:Person>
+<!-- Peter -->
+<foaf:Person rdf:ID="peter">
+<foaf:title>Dr.</foaf:title>
+<foaf:givenname>Albert</foaf:givenname>
+<foaf:family_name>Meroño Peñuela</foaf:family_name>
+<foaf:mbox rdf:resource="albert.merono@vu.nl"/>
+<foaf:homepage rdf:resource="http://www.peterbloem.nl/"/>
+<foaf:depiction rdf:resource="http://amsterdamdatascience.nl/wp-content/uploads/sites/12/2016/03/peter_bloem_tcm210-703537.jpg"/>
+<foaf:interest>deep learning</foaf:interest>
+<foaf:interest>machine learning</foaf:interest>
+<foaf:interest>knowledge graph</foaf:interest>
+<foaf:interest>kolmogorov complexity</foaf:interest>
+<foaf:interest>minimum description length</foaf:interest>
+<foaf:status>postdoc</foaf:status>
+<foaf:currentProject>AAA Datascience</foaf:currentProject>
+<foaf:currentProject>Meastrograph</foaf:currentProject>
+</foaf:Person>
+<!-- Frank -->
+<foaf:Person rdf:ID="frank">
+<foaf:title>Prof.</foaf:title>
+<foaf:givenname>Frank</foaf:givenname>
+<foaf:family_name>van Harmelen</foaf:family_name>
+<foaf:mbox rdf:resource="Frank.van.Harmelen@vu.nl"/>
+<foaf:homepage rdf:resource="http://www.cs.vu.nl/~frank.van.harmelen/"/>
+<foaf:depiction rdf:resource="https://en.wikipedia.org/wiki/Frank_van_Harmelen#/media/File:Frank_van_Harmelen_at_Open_Innovation_2.0_Conference_2016.jpg"/>
+<foaf:interest>knowledge representation</foaf:interest>
+<foaf:interest>medical ontology</foaf:interest>
+<foaf:interest>knowledge graph</foaf:interest>
+<foaf:status>professor</foaf:status>
+<foaf:currentProject>Meastrograph</foaf:currentProject>
+</foaf:Person>
+<!-- Annette -->
+<foaf:Person rdf:ID="annette">
+<foaf:title>Prof.</foaf:title>
+<foaf:givenname>Annette</foaf:givenname>
+<foaf:family_name>ten Teije</foaf:family_name>
+<foaf:mbox rdf:resource="annette@cs.vu.nl"/>
+<foaf:homepage rdf:resource="http://www.cs.vu.nl/~annette/"/>
+<foaf:depiction rdf:resource="https://www.cs.vu.nl/en/Images/Teije_Annette_ten_tcm210-543587.jpg"/>
+<foaf:interest>semantic web</foaf:interest>
+<foaf:interest>medical ontology</foaf:interest>
+<foaf:interest>medical guideline</foaf:interest>
+<foaf:interest>medical protocol</foaf:interest>
+<foaf:status>professor</foaf:status>
+<foaf:currentProject>NO</foaf:currentProject>
+</foaf:Person>
+<!-- Eva -->
+<foaf:Person rdf:ID="eva">
+<foaf:title>Dr.</foaf:title>
+<foaf:givenname>Eva</foaf:givenname>
+<foaf:family_name>Kenny</foaf:family_name>
+<foaf:mbox rdf:resource="e.r.kenny@uva.nl"/>
+<foaf:homepage rdf:resource="https://www.linkedin.com/in/eva-kenny-lowther-4b723793/"/>
+<foaf:depiction rdf:resource="http://amsterdamdatascience.nl/wp-content/uploads/sites/12/2016/03/AAEAAQAAAAAAAAUeAAAAJGQyOTk5NmZiLWIyYTYtNDZhYy04ODNjLTRlNzk0YjUzOTJhNA.jpg"/>
+<foaf:interest>project management</foaf:interest>
+<foaf:interest>data science</foaf:interest>
+<foaf:status>project manager</foaf:status>
+<foaf:currentProject>Amsterdam Data Science</foaf:currentProject>
+</foaf:Person>
+<!-- Ali -->
+<foaf:Person rdf:ID="ali">
+<foaf:title>Dr.</foaf:title>
+<foaf:givenname>Ali</foaf:givenname>
+<foaf:family_name>Khalili</foaf:family_name>
+<foaf:mbox rdf:resource="a.khalili@vu.nl"/>
+<foaf:homepage rdf:resource="http://ali1k.com/"/>
+<foaf:depiction rdf:resource="http://ali1k.com/imgs/ali_smile.jpg"/>
+<foaf:interest>semantic web</foaf:interest>
+<foaf:interest>human-computer interaction</foaf:interest>
+<foaf:interest>linked data</foaf:interest>
+<foaf:interest>natural language processing</foaf:interest>
+<foaf:interest>user interface</foaf:interest>
+<foaf:status>postdoc</foaf:status>
+<foaf:currentProject>RISIS</foaf:currentProject>
+<foaf:currentProject>SlideWiki</foaf:currentProject>
+</foaf:Person>
 </rdf:RDF>
