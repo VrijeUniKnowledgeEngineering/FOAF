@@ -38,9 +38,9 @@
 <!-- Peter -->
 <foaf:Person rdf:ID="peter">
 <foaf:title>Dr.</foaf:title>
-<foaf:givenname>Albert</foaf:givenname>
-<foaf:family_name>Meroño Peñuela</foaf:family_name>
-<foaf:mbox rdf:resource="albert.merono@vu.nl"/>
+<foaf:givenname>Peter</foaf:givenname>
+<foaf:family_name>Bloem</foaf:family_name>
+<foaf:mbox rdf:resource="vu@peterbloem.nl"/>
 <foaf:homepage rdf:resource="http://www.peterbloem.nl/"/>
 <foaf:depiction rdf:resource="http://amsterdamdatascience.nl/wp-content/uploads/sites/12/2016/03/peter_bloem_tcm210-703537.jpg"/>
 <foaf:interest>deep learning</foaf:interest>
@@ -59,7 +59,7 @@
 <foaf:family_name>van Harmelen</foaf:family_name>
 <foaf:mbox rdf:resource="Frank.van.Harmelen@vu.nl"/>
 <foaf:homepage rdf:resource="http://www.cs.vu.nl/~frank.van.harmelen/"/>
-<foaf:depiction rdf:resource="https://en.wikipedia.org/wiki/Frank_van_Harmelen#/media/File:Frank_van_Harmelen_at_Open_Innovation_2.0_Conference_2016.jpg"/>
+<foaf:depiction rdf:resource="http://iswc2011.semanticweb.org/uploads/pics/frank-van-harmelen_03.jpg"/>
 <foaf:interest>knowledge representation</foaf:interest>
 <foaf:interest>medical ontology</foaf:interest>
 <foaf:interest>knowledge graph</foaf:interest>
@@ -68,7 +68,7 @@
 </foaf:Person>
 <!-- Annette -->
 <foaf:Person rdf:ID="annette">
-<foaf:title>Prof.</foaf:title>
+<foaf:title>Dr.</foaf:title>
 <foaf:givenname>Annette</foaf:givenname>
 <foaf:family_name>ten Teije</foaf:family_name>
 <foaf:mbox rdf:resource="annette@cs.vu.nl"/>
@@ -78,8 +78,8 @@
 <foaf:interest>medical ontology</foaf:interest>
 <foaf:interest>medical guideline</foaf:interest>
 <foaf:interest>medical protocol</foaf:interest>
-<foaf:status>professor</foaf:status>
-<foaf:currentProject>NO</foaf:currentProject>
+<foaf:status>associate professor</foaf:status>
+<foaf:currentProject>NO IDEA</foaf:currentProject>
 </foaf:Person>
 <!-- Eva -->
 <foaf:Person rdf:ID="eva">
