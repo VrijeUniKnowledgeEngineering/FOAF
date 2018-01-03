@@ -1,0 +1,6 @@
+ignoring property isbn in entry 5c8046aa6f4542cfaf255e4fcc6c590c; no handler or RDF property registered
+ignoring property abstract in entry 5c8046aa6f4542cfaf255e4fcc6c590c; no handler or RDF property registered
+ignoring property doi in entry 5c8046aa6f4542cfaf255e4fcc6c590c; no handler or RDF property registered
+ignoring property keywords in entry 830d342a93164dff8e224ed01f214351; no handler or RDF property registered
+ignoring property issn in entry 29c60e65ac184520ae61b41b5302c78a; no handler or RDF property registered
+javabib: 7353:1: encountered '[EOF]', expected '{'.
